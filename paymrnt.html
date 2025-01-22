@@ -1,0 +1,92 @@
+<html>
+    <head>
+        <title>
+            Payment
+        </title>
+        <link rel="stylesheet" href="froms.css">
+        <link rel="stylesheet" href="froms2.css">
+    </head>
+</html>
+<body>
+    <header class="site-header">
+        <div class="container">
+          <h1 class="logo"><a href="from.html">MyShop</a></h1>
+          <nav class="main-navigation">
+            <ul>
+                <li><a class="active" href="from.html">Home</a></li>
+                <li><a href="from2.html">Products</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <li><a href="myaccount.html">Account</a></li>
+                <li><a href="paymrnt.html">payment</a></li>
+                <li><a href="singup.html">login/signup</li>
+            </ul>
+        </nav>
+        </div>
+      </header>
+<div class="pay-1">
+        <div class="card shadow-base2">
+            <div class="card-text space-y-2">
+                <div class="mb-2 flex p-2">
+                    <div class="flex-shrink-0 mt-1 p-1 pointer " onclick="back()">
+                        <i class="fa fa-arrow-left text-2xl"></i>
+                    </div>
+                    <div id="data22" class="flex-grow-1" style="margin-left:10px">
+                        <p class="mb-0" style="font-size: 15px; font-weight: bold;">Upi</p>
+                        <p class="text-sm mb-2" style="font-size: 12px;">You Can Pay Using All Upi Payment App</p>
+                    </div>
+                </div>
+                <center>
+                    <img src="01/photo1714109014.jpeg" height="200" width="200" style="margin-top: 0;">
+                    <p stle="black"></p>
+                </center>
+                <div style="position: relative; margin-top: 8px; text-align: center;"> <!-- Adjusted for left alignment -->
+                    <div class="flex">
+                        <input id="iconRight" type="text" value="modi20nu2020@okaxis" class="form-input ltr:rounded-r-none rtl:rounded-l-none" readonly/>
+                        <div onclick="copy('modi20nu2020@okaxis')" class="bg-[#eee] flex justify-center items-center ltr:rounded-r-md rtl:rounded-l-md px-3 font-semibold border border-transparent dark:border-[#17263c] dark:bg-[#1b2e4b]">
+                            <i class="fa fa-clipboard text-2xl"></i>
+                        </div>
+                    </div>
+                    <div class="input-area">
+                        <center>
+                            <label for="name" class="form-label">ENTER UTR NUMBER HERE</label>
+                        </center>
+                        <input id="ref_id" type="number" style="height:50px" class="form-input text-center" placeholder="UTR NUMBER">
+                    </div>
+                    <br>
+                    <center>
+                        <button id="recharges" onclick="add_upi();" class=" btn w-full btn-primary">
+                              Add Money
+                          </button>
+                    </center>
+                </div>
+            </div>
+        </div>
+        
+        <div class="card shadow-base2">
+            <div class="card-text space-y-2">
+                <div class="mb-2 flex p-2">
+                    <div class="flex-shrink-0 mt-1 p-1 pointer" onclick="back()">
+                        <i class="fa fa-arrow-left text-2xl"></i>
+                    </div>
+                    <div id="data22" class="flex-grow-1" style="margin-left:10px">
+                        <p class="mb-0" style="font-size: 15px; font-weight: bold;">PROMOCODE</p>
+                        <p class="text-sm mb-2" style="font-size: 12px;">JOIN CHANNEL TO WIN PROMOCODE</p>
+                    </div>
+                </div>
+                    <div class="input-area">
+                        <center>
+                            <label for="name" class="form-label">ENTER PROMOCODE HERE</label>
+                        </center>
+                        <input id="redeem_id" type="text" style="height:50px" class="form-input text-center" placeholder="XXXX-XXXX-XXXX">
+                    </div>
+                    <br>
+                    <center>
+                        <button id="recharges1" onclick="add_promo();" class=" btn w-full btn-primary">
+                              Redeem 
+                          </button>
+                    </center>
+                </div>
+            </div>
+        </div>
+</body>
+</html>

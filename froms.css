@@ -1,0 +1,107 @@
+
+/* Reset some default styles */
+body, html {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.searchform-fields{
+    margin-left: auto;
+}
+.searchform-cats{
+    margin-left: auto;
+}
+.logo {
+    float: left;
+    margin: 0;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.main-navigation {
+    float: right;
+}
+
+.main-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-navigation ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.main-navigation ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.main-navigation ul li a:hover {
+    text-decoration: underline;
+}
+.inline-title{
+    text-align: center;
+    margin-left: 10cm;
+    font-size: 24px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    position: relative;
+  }
+.product-content{
+    padding-top:7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: black;
+}
+.woocommerce-loop-product__title{
+    padding-top: 7px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #088178;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    text-transform: uppercase;
+
+}
+.icon {
+    width: 100px;
+    height: 100px;
+    background-color: #333; /* Dark background color */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    background-color: #fff; /* White eye color */
+    border-radius: 50%;
+    margin: 5px; /* Adjust as needed */
+}
+.profile-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .footer {
+    background-color: #333;
+    width: 100%;
+    height: 300%;
+  }
+  .footer-link {
+    margin-left: 450px;
+  }
